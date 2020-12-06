@@ -34,7 +34,7 @@ class ConnectedForm extends Component {
     return (
       <form onSubmit={this.handleSubmit}>
         <div>
-          <label htmlFor="title">Title</label>
+          <label htmlFor="title">Title :</label>
           <input
             type="text"
             id="title"
@@ -42,6 +42,7 @@ class ConnectedForm extends Component {
             onChange={this.handleChange}
           />
         </div>
+        <br/>
         <button type="submit">SAVE</button>
       </form>
     );

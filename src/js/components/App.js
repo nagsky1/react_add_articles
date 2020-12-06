@@ -5,7 +5,7 @@ import List from "./List";
 const App = () => (
     <>
     <div>
-      <h2>Articles</h2>
+      <h2>Dispalying Articles in React and Redux</h2>
     </div>
     <div>
       <h2>Add a new article</h2>
